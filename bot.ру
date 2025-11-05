@@ -4,7 +4,7 @@ from datetime import date
 import locale
 
 # === НАСТРОЙКИ ===
-TOKEN = "8424177109:AAHVSzi1UaamoihbdC0RzjheIfxSRtq2BvI"  # ← вставь свой токен
+TOKEN = "ТОКЕН"  # ← вставь свой токен
 SPREADSHEET_NAME = "Finance"
 
 bot = telebot.TeleBot(TOKEN)
@@ -153,3 +153,4 @@ def finalize_transaction_with_note(message, skip_note=False):
 
 # === ЗАПУСК БОТА ===
 bot.polling(non_stop=True)
+
